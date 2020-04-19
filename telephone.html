@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Satina home page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logos/satina-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+        <!--Fonf awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+	
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #fff;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+.logo {
+	width: 130px;
+	margin-top: -10px;
+}
+
+.navbar-custom {
+    color: #000;
+    background-color: #fff;
+    padding: 3px;
+}
+
+ .myslidecontrol {
+    width: 4%;
+    opacity: 0.2;
+    color: black;
+    transition: 0.3s;
+ }
+  .myslidecontrol:hover {
+    width: 5%;
+ }
+
+ .myvlog {
+    border-left: 1px solid dodgerblue;
+    padding-bottom: 40px;
+    transition: 0.3s;
+ }
+ .myvlog:hover {
+    border-bottom: 6px solid dodgerblue;
+    background-color: #f4fafe;
+ }
+
+ .btn-blog {
+  background-color: white; 
+  color: dodgerblue;
+ }
+ .btn-blog:hover {
+  background-color: #e6f5ff; 
+  color: dodgerblue;
+ }
+
+
+/* icons */
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.btn-in{
+    color: #fff;
+    background-color:#165f87;
+}
+.btn-in:hover{
+    color: #fff;
+    background-color:#17618a;
+}
+
+/* dropdown hover */
+.mydropdown-hover {
+    width: 100%;
+    transition: 0.5s;
+    padding: 10px;
+}
+.mydropdown-hover:hover {
+    background-color: #f5f5f5;
+}
+
+/* dropdown hover */
+
+
+/* Gallery telephone */
+
+.gallery-title
+{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #169dd9;
+    color: #fff;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #169dd9;
+    color: #169dd9;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+/* Gallery telephone end*/
+
+</style>
+
+
+
+</head>
+<body>
+
+
+
+
+
+<!--Header-->
+<div class="container-fluid">
+    
+<div class="topbar-section" style="background-color: #1683b3;background-image: url('images/footer.png');border-top: 1px dashed #fff; padding-top: 15px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-md-3 col-xs-6 hidden-xs-down">
+                    <div class="topsocial">
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                            <i class="fa fa-facebook fa-lg" style="color: #fff;"></i>
+                        </a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest">
+                            <i class="fa fa-pinterest fa-lg" style="color: #fff;"></i>
+                        </a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                            <i class="fa fa-twitter fa-lg" style="color: #fff;"></i>
+                        </a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+">
+                            <i class="fa fa-google-plus fa-lg" style="color: #fff;"></i>
+                        </a>
+                    </div><!-- end social -->
+                </div><!-- end col -->
+
+                <div class="col-md-7 hidden-md-down hidden-xs">
+                    <div class="topmenu text-center" >
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a  href="blog-category-01.html"><i style="color: #fff;" class="fa fa-envelope-o"></i> <strong style="color: #fff;"> Email: info@satina-holding.com</strong></a></li>
+                            <li class="list-inline-item"><a href="blog-category-02.html"><i style="color: #fff;" class="fa fa-phone"></i> <strong style="color: #fff;">628 44 95 77/624 20 20 99</strong></a></li>
+                        </ul><!-- end ul -->
+                    </div><!-- end topmenu -->
+                </div><!-- end col -->
+
+                <div class="col-md-2 col-xs-6">
+                    <div class="topsearch text-right">
+                        <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <strong style="color: #fff;"><span class="glyphicon glyphicon-search" style="font-size: 25px;"></span></strong>
+                        </a>
+                    </div><!-- end search -->
+                </div><!-- end col -->
+
+            </div><!-- end row -->
+        </div><!-- end header-logo -->
+    </div><!-- end topbar -->
+
+
+</div>
+
+    <div class="collapse top-search" id="collapseExample" style="padding: 10px;">
+        <div class="card card-block">
+            <div class="newsletter-widget text-center">
+                <form class="form-inline">
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="input-group">
+                          <input type="text" class="form-control " placeholder="Search for..." style="width: 100%;">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                          </span>
+                        </div><!-- /input-group -->
+                      </div><!-- /.col-lg-6 -->
+                    </div><!-- /.row -->
+                </form>
+            </div><!-- end newsletter -->
+        </div>
+    </div><!-- end top-search -->
+
+
+<div class="container-fluid">
+        <nav class="navbar navbar-default navbar-custom" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+                <span class="sr-only">Satina</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="navbar-brand navbar-brand-centered">
+                <img class="logo" src="img/logos/satina.png">
+              </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-brand-centered">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">À Propos De Nous<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="mission.html">Mission & Vision</a></li>
+                    <li><a href="comite.php">Comité executive</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Nos Produits<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="telephone.html">Telephones</a></li>
+                    <li><a href="accessoires.php">Accessoires</a></li>
+                    <li><a href="#">Mycash</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Boutique<span class="caret"></span></a>
+
+                  <ul class="dropdown-menu" style="width: 650px;">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-3">
+                            <a href="http://satinamobile.com/satina_shop/shop/category/YOYRUDAOTTAUFJO" target="_blank"><img src="img/logos/samsung.png" class="mydropdown-hover"></a>
+                        </div>
+                        <div class="col-md-3 col-xs-3">
+                            <a href="http://satinamobile.com/satina_shop/shop/category/CHYZ1NLT9MOJOUT" target="_blank"><img src="img/logos/lava.png" class="mydropdown-hover"></a>
+                        </div>
+                        <div class="col-md-3 col-xs-3">
+                            <a href="http://satinamobile.com/satina_shop/shop/category/C4KYZU1131YPGHM" target="_blank"><img src="img/logos/felux.png" class="mydropdown-hover"></a>
+                        </div>
+                        <div class="col-md-3 col-xs-3">
+                            <a href="http://satinamobile.com/satina_shop/shop/category/V71V14NEULSPUFQ" target="_blank"><img src="img/logos/oraimo.png" class="mydropdown-hover"></a>
+                        </div>
+                    </div>
+                  </ul>
+                </li>
+
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contactk</a></li>           
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+</div>
+
+<!--Header End -->
+
+
+
+
+        <div class="page-title wb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 hidden-xs hidden-sm">
+                        <h2 style="margin-top: 0px;"> Mission & Vision <small>Satina SARL </small></h2>
+                    </div><!-- end col -->
+                    <div class="col-md-4 hidden-xs-down hidden-sm-down">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.php">Accueil</a>
+                            </li>
+                            <li class="breadcrumb-item active">
+                                <a href="#" class="active" style="color: dodgerblue;">Mission & Vision</a>
+                            </li>
+                        </ol>
+                    </div><!-- end col -->                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end page-title -->
+
+        <hr>
+
+
+
+<!--telephone section -->
+
+ <div class="container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Téléphones</h1>
+        </div>
+
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="hdpe">Samsung</button>
+            <button class="btn btn-default filter-button" data-filter="sprinkle">Lava</button>
+            <button class="btn btn-default filter-button" data-filter="spray">Oraimo</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">Mycash</button>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="img/image1.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="img/image1.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="img/image1.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="img/image3.jpg" class="img-responsive">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!--telephone section end-->
+
+
+
+            
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p>Depuis plusieurs années dans le marché, SATINA est devenu un leader dans la distribution de téléphone en Guinée.
+
+            Pour plus de détails sur la liste de nos produits cliquer sur le www.satinamobile.com</p>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container"><hr>
+    
+    <div class="row">
+        <div class="col-md-12 text-center">
+              <div class="social-buttons">
+                  <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                  <a href="#" class="btn btn-in"><i class="fa fa-instagram"></i> Instagram</a>
+              </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<hr>
+<div class="container-fluid"> 
+
+
+
+
+        <footer style="background-color: #30434b; color: white; padding-bottom: 40px; padding-top: 40px;">
+            <div class="container-fluid padding" style="margin: auto; ">
+                <div class="row">
+                <div class="col-md-4" style="">
+
+                  <form class="form-horizontal" action="/action_page.php">
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                          <h3 style="color: white;">Contact rapide</h3>
+                        <input type="email" class="form-control" id="email" placeholder="Nom">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="E-mail">
+                      </div>
+                    </div>
+                  
+                  
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                          <textarea class="form-control" id="comment" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                  
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color: white;">Find Us On Social Media</h3>
+                    <div class="social-buttons">
+                        <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                        <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                        <a href="#" class="btn btn-in"><i class="fa fa-instagram"></i> Instagram</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color: white;">SATINA</h3>
+                    <img src="img/image2.jpg" style="width: 100%">
+                </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+        
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="padding: 20px">© 2020 Copyright Satina-Holding
+  </div>
+  <!-- Copyright -->
+
+
+</div>
+
+
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+  $('.nav-tabs a').on('shown.bs.tab', function(event){
+    var x = $(event.target).text();         // active tab
+    var y = $(event.relatedTarget).text();  // previous tab
+    $(".act span").text(x);
+    $(".prev span").text(y);
+  });
+});
+</script>
+
+
+<!--telephone script -->
+
+<script>
+    
+$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+
+</script>
+
+<!--telephone script -->
+
+
+</body>
+</html>
